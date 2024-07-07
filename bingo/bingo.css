@@ -1,0 +1,34 @@
+body {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+}
+
+table {
+    width: 100%;
+	border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+	border: 1px #666 solid;
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+
+/* チェックボックスを見えなくする 
+
+input[type="checkbox"] {
+    display: none;
+}
+*/
+
+#free {
+	background-color: #f88;
+}
